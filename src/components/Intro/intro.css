@@ -62,19 +62,30 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    padding: 0 1rem;
+    padding: 0.8rem 1.2rem;
     border-radius: 2rem;
     margin-top: 30px;
     font-weight: bold;
     font-size: 1rem;
 }
+.btn:hover{
+    color: #fff;
+    background: linear-gradient(60deg,#03001e,#7303c0,#ec38bc,#fdeff9);
+}
 
 @media screen and (max-width:840px) {
     .introContent{
-       font-size: 10vw;
+       width: 50%vw;
+       height: 50%vh;
+       margin-top: 250px;
+
     }
-    .hello{
-        font-size: 4.5vw;
-        font-weight: 200;
+  
+    .bg{
+        position: absolute;
+        top: 3rem;
+        left: 14rem;
+        height: 60vh;
+        width: auto;
     }
 }

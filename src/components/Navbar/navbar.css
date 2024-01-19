@@ -14,6 +14,8 @@
     top: 0;
     z-index: 3;
 }
+
+    
 .logo{
     object-fit: cover;
     height: 3rem;
@@ -49,6 +51,6 @@
     border-radius: 2rem;
 }
 .desktopMenuBtn:hover{
-    color: #333;
-    background: linear-gradient();
+    color: #fff;
+    background: linear-gradient(45deg,#8E2DE2,#4A00E0);
 }

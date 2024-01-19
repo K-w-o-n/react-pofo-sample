@@ -1,7 +1,6 @@
 import React from 'react'
 import './intro.css'
 import profile from '../../assets/profile.jpg'
-import hire from '../../assets/hire.png'
 import { Link } from 'react-scroll'
 const Intro = () => {
   return (
@@ -10,7 +9,7 @@ const Intro = () => {
         <span className="hello">Hello,</span>
         <span className="introText">I'm <span className="introName">Kwon</span><br />Professional Web Developer</span>
         <p className="introPara"> I'm passionate about creating robust and efficient web applications. <br />As a full-stack developer, i have a solid foundation in both Frontend & Backend technologies.</p>
-        <Link><button className="btn"><img src={hire} alt="hire" className='hireMe'/>Hire Me</button></Link>
+        <Link><button className="btn">Hire Me</button></Link>
     </div>
     <img src={profile} alt="Profile" className="bg" />
    </section>
