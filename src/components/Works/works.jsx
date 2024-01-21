@@ -20,6 +20,7 @@ function Works() {
         <img src={profile5} alt="" className="worksImg" />
         <img src={profile6} alt="" className="worksImg" />
     </div>
+    <button className="worksBtn">See more</button>
    </section>
   )
 }
