@@ -32,10 +32,10 @@ const Contact = () => {
                 <textarea  className="msg" rows="5"  name='message' placeholder='Enter Your Message'></textarea>
                 <button className="submitBtn" type='submit'>Submit</button>
                 <div className="links">
-                    <img src={Link1} alt="" className="link" />
-                    <img src={Link2} alt="" className="link" />
-                    <img src={Link3} alt="" className="link" />
-                    <img src={Link4} alt="" className="link" />
+                    <li><a href="https://www.facebook.com/kwon.woo.357/"> <img src={Link1} alt="" className="link" /></a></li>
+                    <li><a href="https://www.instagram.com/kwonfsdev/"> <img src={Link2} alt="" className="link" /></a></li>
+                    <li><a href="https://www.youtube.com/channel/UCQLP35BCTgyjU3W29O-PaaQ"> <img src={Link3} alt="" className="link" /></a></li>
+                    <li><a href="https://twitter.com/?lang=en"> <img src={Link4} alt="" className="link" /></a></li>   
                 </div>
             </form>
         </div>
